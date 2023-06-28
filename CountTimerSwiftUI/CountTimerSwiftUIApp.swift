@@ -12,6 +12,7 @@ struct CountTimerSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .tint(.teal)
         }
     }
 }
